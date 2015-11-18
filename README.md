@@ -19,7 +19,7 @@
 
 **people_wiki.gl**
 * https://s3.amazonaws.com/static.dato.com/files/coursera/datasets/people_wiki.gl.zip
-* https://s3.amazonaws.com/static.dato.com/files/coursera/datasets/people.wiki.gl
+* https://s3.amazonaws.com/static.dato.com/files/coursera/datasets/people_wiki.gl
 
 **song_data**
 * https://s3.amazonaws.com/static.dato.com/files/coursera/datasets/song_data.gl.zip
