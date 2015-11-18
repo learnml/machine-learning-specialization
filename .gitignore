@@ -1,0 +1,4 @@
+__MACOSX
+*.pyc
+.ipynb_checkpoints
+.DS_Store
