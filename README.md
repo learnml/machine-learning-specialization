@@ -23,3 +23,13 @@
 <br/>
 #### Course 2
 * https://s3.amazonaws.com/static.dato.com/files/coursera/course-2/kc_house_data.gl.zip
+
+### References
+
+More information on the Amazon data set may be found [here](http://jmcauley.ucsd.edu/data/amazon/) as well as in the following paper.
+
+```
+Inferring networks of substitutable and complementary products
+J. McAuley, R. Pandey, J. Leskovec
+Knowledge Discovery and Data Mining, 2015
+```
