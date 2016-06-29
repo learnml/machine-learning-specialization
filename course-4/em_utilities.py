@@ -75,7 +75,7 @@ def logpdf_diagonal_gaussian(x, mean, cov):
     scaled_mean = mean/(2*np.sqrt(cov))
 
     # sum of pairwise squared Eulidean distances gives SUM[(x_i - mean_i)^2/(2*sigma_i^2)]
-    return -np.sum(np.log(np.sqrt(2*np.pi*cov))) - pairwise_distances(scaled_x, scaled_mean, 'euclidean').flatten()**2
+    return -np.sum(np.log(np.sqrt(2*np.pi*cov))) - pairwise_distances(scaled_x, [scaled_mean], 'euclidean').flatten()**2
 
 def log_sum_exp(x, axis):
     '''Compute the log of a sum of exponentials'''
