@@ -119,7 +119,7 @@ def EM_for_high_dimension(data, means, covs, weights, cov_smoothing=1e-5, maxite
             mu[k] = (diag(resp[:,k]).dot(data)).sum(axis=0)/counts[k]
             mu[k] = mu[k].A1
 
-            Sigma[k] = diag(resp[:,k]).dot( data.power(2)-2*data.dot(diag(mu[k])) ).sum(axis=0) \
+            Sigma[k] = diag(resp[:,k]).dot( data.multiply(data)-2*data.dot(diag(mu[k])) ).sum(axis=0) \
                        + (mu[k]**2)*counts[k]
             Sigma[k] = Sigma[k].A1 / counts[k] + cov_smoothing*np.ones(dim)
 
