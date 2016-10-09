@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+course-4/kmeans-arrays.npz filter=lfs diff=lfs merge=lfs -text
